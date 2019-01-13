@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Busca usuário Github</title>
+    <link rel="icon" href="img/github.ico" type="image/x-icon" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="procura_titulo"> <a href="index.html">Procura Usuário do Github</a></h1>
+    </header>
+    <div class="geral">
+        <div class="procura">
+            <form action="" class="procura_formulario">
+                <!-- Buscar por usuário -->
+                <div class="procura__form-group">
+                    <label for="user" class="nome">Procure por um usuário do GitHub</label>
+                    <input type="text" class="procura_nome" id="user" name="username" placeholder="Digite aqui o nome">
+                </div>
+                <div class="procura__form-group">
+                    <button class="button search__button">Buscar</button>
+                </div>
+            </form>
+            <!-- Buscar por usuário -->
+
+            <div class="user user--hidden">
+                <!-- Template usuário -->
+                <div class="user__profile">
+                    <!-- Informações do usuário -->
+                    <figure class="user__avatar-box">
+                        <img src="" alt="avatar" class="user__avatar" data-js-avatar>
+                    </figure>
+                    <div class="user__infos">
+                        <div class="user__infos-header">
+                            <span class="user__infos-item user__name" data-js-name>Nome</span>
+                            <span class="user__infos-item user__username" data-js-user>@user</span>
+                            <span class="user__infos-item user__email" data-js-email>email@email.com</span>
+                            <span class="user__infos-item user__bio" data-js-bio>bio</span>
+                        </div>
+                        <div class="user__infos-footer">
+                            <p class="user__followers">
+                                Seguidores
+                                <span class="user__infos-item" data-js-followers>0</span>
+                            </p>
+                            <p class="user__following">
+                                Seguindo
+                                <span class="user__infos-item" data-js-following>0</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Informações do usuário -->
+                <div class="user__repos">
+                    <!-- Repositórios do usuário -->
+                    <div class="user__repos-header">
+                        <p>Repositórios</p>
+                        
+                        
+                    </div>
+                </div>
+                <!-- Repositórios do usuário -->
+            </div>
+            <!-- Template usuário -->
+        </div>
+    </div>
+    <script src="script/jquery-3.3.1.min.js"></script>
+    <script src="script/user.js"></script>
+</body>
+
+</html>
