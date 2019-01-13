@@ -1,4 +1,6 @@
-frontend-desafio
+Desafio FrontEnd
+
+
 Implementar uma aplicação client-side, que consulte a API do GitHub e mostre os repositórios mais populares de um determinado usuário.
 
 Pagina de busca por um usuário com detalhes: número de seguidores, número de seguidos, imagem do avatar, e-mail, bio, listagem dos repositórios ordenados pelo número decrescente de estrelas;
